@@ -1,4 +1,4 @@
-# Sample Game of Life
+# Example Game of Life python implementation
 
 Options:
 ```
