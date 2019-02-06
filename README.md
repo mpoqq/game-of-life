@@ -21,4 +21,4 @@ Options:
 Example:
 Probability of 0.7:
 
-[random.gif](./random.gif)
+![random.gif](./random.gif)
