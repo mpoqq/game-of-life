@@ -1,0 +1,16 @@
+name: main_workflow
+
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  push-test-result:
+    runs-on: [ linux ]
+    steps:
+      - uses: actions/checkout@main
+
+      - name: build
+        run: |
+          docker build .
